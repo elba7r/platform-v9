@@ -5,7 +5,7 @@
   user: "{{ frappe_user }}"
   tasks:
       - git:
-          repo=https://github.com/frappe/bench
+          repo=https://github.com/elba7r/platform-v9
           dest=/home/frappe/bench-repo
           depth=no
   tags:
@@ -35,7 +35,7 @@
         frappe_branch: develop
         apps:
           - name: erpnext
-            url: https://github.com/frappe/erpnext
+            url: https://github.com/elba7r/system-v9
           - name: erpnext_demo
             url: https://github.com/frappe/erpnext_demo
         mariadb_root_password: "{{ mysql_root_password }}"

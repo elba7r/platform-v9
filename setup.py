@@ -14,8 +14,8 @@ requirements = parse_requirements("requirements.txt", session="")
 setup(
 	name='bench',
 	description='Metadata driven, full-stack web framework',
-	author='Frappe Technologies',
-	author_email='info@frappe.io',
+	author='Revalue S.A.E',
+	author_email='info@revaluesoft.com',
 	version=version,
 	packages=find_packages(),
 	zip_safe=False,
