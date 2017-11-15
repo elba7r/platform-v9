@@ -96,7 +96,7 @@ def _update(pull=False, patch=False, build=False, update_bench=False, auto=False
 		restart_supervisor_processes(bench_path=bench_path)
 
 	print("_"*80)
-	print("Bench: Deployment tool for Frappe and ERPNext (https://erpnext.org).")
+	print("Bench: Deployment tool for Revaluesoft and Revalue ERP (http://revaluesoft.com).")
 	print("Open source depends on your contributions, so please contribute bug reports, patches, fixes or cash and be a part of the community")
 	print()
 
